@@ -18,7 +18,7 @@
       <td><%= restaurant.address %></td>
       <td><%= restaurant.phone_number %></td>
       <td> <%= restaurant.category %></td>
-      <td>ratings</td>
+      <td><%= restaurant.reviews.length %></td>
       <td><%= link_to 'Show', restaurant %></td>
     </tr>
     <% end %>
